@@ -1,0 +1,90 @@
+{% extends "layout.html" %}
+<!--criamos um bloco de conteúdo a ser interpretado pelo python-->
+{% block conteudo %}
+    <div class="background">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 menu-principal">
+                    <div class="row align-self-center text-center">
+                        <div class="col-md-4">                    
+                            <div class="teste">
+                                <div class="row">
+                                    <div class="col-md-12 ">
+                                        <i class="fa fa-calendar-alt"></i>
+                                    </div>
+                                    <div class="col-md-12 texto">
+                                        Agenda
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">                            
+                            <div class="teste">                
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </div>
+                                    <div class="col-md-12 texto">
+                                        Vendas
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">                        
+                            <div class="teste">                   
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <i class="fa fa-chart-line"></i>
+                                    </div>
+                                    <div class="col-md-12 texto">
+                                        Relatórios
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">                       
+                            <div class="teste">                    
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <i class="fa fa-tags"></i>
+                                    </div>
+                                    <div class="col-md-12 texto">
+                                        Estoque
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">                       
+                            <div class="teste">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <i class="fa fa-paperclip"></i>
+                                    </div>
+                                    <div class="col-md-12 texto">
+                                        Orçamentos
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">                       
+                            <div class="teste">                   
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <i class="fa fa-mobile-alt"></i>
+                                    </div>
+                                    <div class="col-md-12 texto">
+                                        Manutenção
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-right agenda">
+                    <input type="button" class="btn btn-danger" value="Abrir agenda" id="btn-agenda">
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+<!--encerramos o bloco de código a ser interpretado pelo python-->

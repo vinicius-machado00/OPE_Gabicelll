@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #000;
+}
+
+header {
+    height: 100px;
+    line-height: 100px;
+    align-items: center;
+    background-color: #A5BCCB;
+}
+
+.background {
+    /* background-color: #a9a9a9;     */
+}
+
+.table {
+    margin-left: -10px; 
+}
+
+.fa {
+    font-size: 25px;
+}
+    .input-group-append .fa-search {
+        font-size: 15px
+    }
+
+.menu-principal .col-md-4 {
+    padding: 50px 0 10px 0;
+    /* border: 1px solid #000; */
+}
+    .menu-principal .col-md-4 .texto {
+        margin-top: 25px;
+        font-size: 35px;
+        text-transform: uppercase;
+        /* color: #A5BCCB; */
+        cursor: pointer;
+        /* border: 1px solid #000; */
+    }
+    .menu-principal .fa {
+        font-size: 150px;
+        /* color: #A5BCCB; */
+        cursor: pointer;
+    }
+
+    .modal .fa {
+        margin-top: 25px;
+        font-size: 25px
+    }
+
+    #menu {
+        cursor: pointer;
+    }
+
+.container {
+    margin-top: 10px;
+}
+
+.selecao {
+    margin: 50px 0;
+}
+
+.agenda {
+    margin-top: 50px
+}
+
+.tabela-estoque {
+    border-radius: 10px
+}
